@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.*?>
+
+
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="battleship.frontal.vues.VueStatistiquesJoueur"
+	styleClass="conteneur" 
+	id="vue-statistiques-joueur">
+
+
+
+	<Button
+	fx:id="boutonQuitterStatistiqueJoueur" 
+	text="%quitterStatistiquesJoueur"
+	styleClass="gros-bouton2" 
+	id="bouton-quitter-statistique-joueur">
+	</Button>
+
+	
+	<Pane minHeight="20" minWidth="20"/>
+
+
+   
+            <Label
+                fx:id="labelIdJoueur"
+                styleClass="label-id-joueur">
+            </Label>
+<Pane minHeight="20" minWidth="20"/>
+
+
+   
+            <Label
+                fx:id="labelPrenom"
+                styleClass="label-prenom">
+            </Label>
+             
+        
+
+	<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelNom"
+                styleClass="label-nom">
+            </Label>
+
+	<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelPoints"
+                styleClass="label-points">
+            </Label>
+
+	<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelJetons"
+                styleClass="label-jetons">
+            </Label>
+
+<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelVictoires"
+                styleClass="label-victoires">
+            </Label>
+
+<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelDefaites"
+                styleClass="label-defaites">
+            </Label>
+
+<Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelCouleur"
+                styleClass="label-couleur">
+            </Label>
+            
+            
+            
+          
+
+
+	
+	
+
+    </VBox>

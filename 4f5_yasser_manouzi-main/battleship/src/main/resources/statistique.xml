@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.ScrollPane?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+	fx:controller="battleship.frontal.vues.VueJoueur"
+	styleClass="conteneur" 
+	id="vue-joueur">
+	
+	<Pane styleClass="petit-espace-vertical"/>
+	
+
+	<HBox
+	styleClass="hboxButton1">
+
+	
+	<Button 
+	fx:id="boutonAjouterJoueur" 
+	text="%ajouterJoueur"
+	styleClass="gros-bouton2" 
+	id="bouton-ajouter-joueur">
+	</Button>
+	</HBox>
+	
+	<HBox
+	styleClass="hboxButton3">
+	 <Button 
+	fx:id="boutonMenuStatistique"
+	styleClass="gros-bouton2"
+	text="%menuPrincipal" 
+	id="boutonMenuStatistique">
+	
+	</Button>
+	</HBox>
+	
+	<HBox
+	styleClass="hboxButton4">
+	 <Button 
+	fx:id="boutonPartie"
+	styleClass="gros-bouton2"
+	text="%menuPartie" 
+	id="boutonPartie">
+	
+	</Button>
+	
+	</HBox>
+	
+	
+	
+	
+
+	
+	
+	
+
+
+<Pane styleClass="grand-espace-vertical"/>
+<Pane VBox.vgrow="ALWAYS" styleClass="grand-espace-vertical"/>
+
+<HBox styleClass="conteneur">
+
+      
+        <Pane HBox.hgrow="ALWAYS" styleClass="grand-espace-horizontal"/>
+
+        <ScrollPane HBox.hgrow="ALWAYS" fitToWidth="true">
+        <content>
+       
+        <VBox HBox.hgrow="ALWAYS" styleClass="conteneur" fx:id="conteneurJoueur" id="conteneur-joueur">
+        </VBox>
+		
+		 </content>
+        </ScrollPane>
+        
+        <Pane HBox.hgrow="ALWAYS" styleClass="grand-espace-horizontal"/>
+
+    </HBox>
+
+<Pane VBox.vgrow="ALWAYS" styleClass="grand-espace-vertical"/>
+</VBox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

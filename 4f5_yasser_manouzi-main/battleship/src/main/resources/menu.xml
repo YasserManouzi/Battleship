@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="battleship.frontal.vues.VueMenu" 
+    styleClass="conteneur"
+    id="vue-menu">
+
+
+<Pane styleClass="petit-espace-vertical"/>
+
+    <HBox VBox.vgrow="ALWAYS" styleClass="conteneur">
+
+        <Pane styleClass="petit-espace-horizontal"/>
+
+        
+
+        <Pane styleClass="petit-espace-horizontal"/>
+
+    </HBox>
+
+    <Pane styleClass="petit-espace-vertical"/>
+
+    <HBox
+	styleClass="hboxButton">
+    <Button 
+    	fx:id="boutonJoindreJoueur"
+        text="%pageJoueur"
+        styleClass="bouton"
+        id="boutonJoindreJoueur">
+    </Button>
+    </HBox>
+    
+    <Pane styleClass="petit-espace-vertical"/>
+</VBox>

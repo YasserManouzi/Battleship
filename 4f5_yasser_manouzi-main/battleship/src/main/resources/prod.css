@@ -1,0 +1,232 @@
+
+#vue-statistique {
+    -fx-background-color:gray;
+   
+
+
+}
+.gros-bouton {
+    -fx-background-color: 
+        linear-gradient(#254d46 0%, #355362 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#8db38d 0%, #0850b4 20%, #13192b 80%, #010a27 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "fantasy";
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(18, 17, 17);
+    -fx-effect: dropshadow( three-pass-box , rgba(45, 30, 54, 0.678) , 1, 0.0 , 0 , 1);
+    -fx-transition-duration: 0.4s; 
+    -fx-text-decoration: none;
+    -fx-overflow: hidden;
+    -fx-cursor: pointer;
+}
+.gros-bouton Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+.gros-bouton:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #104962 0%, #1580a0 100%),
+        #2e083d,
+        #a113a8,
+        radial-gradient(center 50% 50%, radius 100%, #272461, #37455c);
+}
+
+.gros-bouton:after {
+    -fx-content: "";
+    -fx-background: #1f218b;
+    -fx-display: block;
+    -fx-position: absolute;
+    -fx-padding-top: 300%;
+    -fx-padding-left: 350%;
+    -fx-margin-left: -20px;
+    -fx-margin-top: -120%;
+    -fx-opacity: 0;
+    -fx-transition: all 0.8s
+  }
+  .gros-bouton:active:after{
+    -fx-padding: 0;
+    -fx-margin: 0;
+    -fx-opacity: 1;
+    -fx-transition: 0s
+  }
+ 
+.conteneur{
+    -fx-border-width:10;
+}
+
+
+
+
+#vue-menu {
+    -fx-background-color:gray;
+
+
+}
+
+.bouton {
+-fx-background-color: 
+linear-gradient(#254d46 0%, #355362 25%, #373837 75%, #757575 100%),
+linear-gradient(#020b02, #3a3a3a),
+linear-gradient(#8db38d 0%, #0850b4 20%, #13192b 80%, #010a27 100%);
+-fx-background-insets: 0,1,4,5,6;
+-fx-background-radius: 9,8,5,4,3;
+-fx-padding: 15 30 15 30;
+-fx-font-family: "fantasy";
+-fx-font-size: 10px;
+-fx-font-weight: bold;
+-fx-text-fill: rgb(18, 17, 17);
+-fx-effect: dropshadow( three-pass-box , rgba(45, 30, 54, 0.678) , 1, 0.0 , 0 , 1);
+-fx-transition-duration: 0.4s; 
+-fx-text-decoration: none;
+-fx-overflow: hidden;
+-fx-cursor: pointer;
+
+}
+.bouton Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+.bouton:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #104962 0%, #1580a0 100%),
+        #2e083d,
+        #a113a8,
+        radial-gradient(center 50% 50%, radius 100%, #272461, #37455c);
+}
+
+.bouton:pressed {
+    -fx-font-size: 3em;
+
+}
+
+.hboxButton{
+    -fx-alignment: center 
+}
+
+.gros-bouton2 {
+    -fx-background-color: 
+    linear-gradient(#254d46 0%, #355362 25%, #373837 75%, #757575 100%),
+    linear-gradient(#020b02, #3a3a3a),
+    linear-gradient(#8db38d 0%, #0850b4 20%, #13192b 80%, #010a27 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "fantasy";
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(18, 17, 17);
+    -fx-effect: dropshadow( three-pass-box , rgba(45, 30, 54, 0.678) , 1, 0.0 , 0 , 1);
+    -fx-transition-duration: 0.4s; 
+    -fx-text-decoration: none;
+    -fx-overflow: hidden;
+    -fx-cursor: pointer;
+    
+    }
+    .gros-bouton2 Text {
+        -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+    }
+    
+    .gros-bouton2:hover {
+        -fx-background-color: 
+            linear-gradient(from 0% 93% to 0% 100%, #104962 0%, #1580a0 100%),
+            #2e083d,
+            #a113a8,
+            radial-gradient(center 50% 50%, radius 100%, #272461, #37455c);
+    }
+    
+    .gros-bouton2:pressed {
+        -fx-font-size: 3em;
+    
+    }
+
+    .hboxButton1 {
+        -fx-alignment: center;
+    }
+
+
+    .petit-espace-vertical {
+        -fx-min-height:10;
+        -fx-max-height:50;
+    }
+    
+    .grand-espace-vertical {
+        -fx-min-height:50;
+        -fx-max-height:200;
+    }
+    
+    .petit-espace-horizontal {
+        -fx-min-width:10;
+        -fx-max-width:50;
+    }
+    
+    .grand-espace-horizontal {
+        -fx-min-width:50;
+        -fx-max-width:200;
+    }
+    
+    .conteneur-parent{
+        -fx-border-color:black;
+    }
+    
+    #conteneur-statistique-partie{
+        -fx-alignment:top-center;
+    }
+
+
+
+
+
+
+
+    .bouton-rouge {
+        -fx-background-color: 
+            linear-gradient(from 90% 100% to 0% 100%, #b72353 0%, #9f2836 100%),
+            #a83145,
+            #ea5c63,
+            radial-gradient(center 50% 50%, radius 100%, #ea5c62, #d33a54);
+    }
+    
+    .rendez-vous {
+       -fx-padding: 8 15 15 15;
+       -fx-background-color: derive(black, 75%);
+       -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+       -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+       -fx-background-radius: 8;
+    }
+    
+    .label-nom-joueur{
+       -fx-text-fill: derive(black, 25%);
+       -fx-font-size:3em;
+    }
+
+
+
+
+    .scroll-bar {
+        -fx-background-color: transparent;
+        -fx-border-color: transparent;
+     }
+     
+     .scroll-bar .track {
+        -fx-background-color: derive(black, 75%);
+        -fx-border-color: transparent;
+        -fx-background-radius: 8;
+     }
+     
+     .scroll-bar .thumb {
+         -fx-padding: 8 15 15 15;
+         -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+         -fx-background-radius: 8;
+         -fx-background-color: 
+             linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+             #9d4024,
+             #d86e3a,
+             radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+         -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+     }
+     
+     

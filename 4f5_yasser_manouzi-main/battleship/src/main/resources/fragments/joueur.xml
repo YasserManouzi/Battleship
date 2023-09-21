@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="battleship.frontal.fragments.FragmentJoueur" 
+    styleClass="conteneur,vue-joueur">
+    <HBox>
+        <Pane styleClass="grand-espace-horizontal"/>
+        <HBox HBox.hgrow="ALWAYS" styleClass="conteneur,joueur" fx:id="horizontalOuVertical">
+          
+	
+	<Button 
+    fx:id="boutonJoindreStatistiquesJoueur" 
+    text="%joindreStatistiquesJoueur"
+    styleClass="gros-bouton2"
+    id="bouton-joindre-statistiques-joueur">
+</Button>
+	
+	
+	
+            <Pane minHeight="20" minWidth="20"/>
+            <Label
+                fx:id="labelNomJoueur"
+                styleClass="label-nom-joueur">
+            </Label>
+            
+            <Pane HBox.hgrow="ALWAYS" minHeight="20" minWidth="20"/>
+            <Button 
+                fx:id="boutonSupprimerPartie" 
+                text="%supprimerPartie"
+                styleClass="gros-bouton,bouton-rouge">
+            </Button>
+        </HBox>
+        <Pane styleClass="grand-espace-horizontal"/>
+    </HBox>
+    <Pane styleClass="petit-espace-vertical"/>
+</VBox>
